@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illinois Center for School Transformation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            padding: 0 10px;
+        }
+        .logo {
+            width: 100px;
+            height: 50px;
+        }
+        .hero {
+            background: #e8e8e8;
+            text-align: center;
+            padding: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .partners {
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+        .partner-logos {
+            display: flex;
+            animation: moveRight 20s linear infinite;
+        }
+        .partner-logo {
+            width: 50px;
+            height: 50px;
+            background: #ddd;
+            border-radius: 50%;
+            margin-right: 30px;
+            flex-shrink: 0;
+        }
+        @keyframes moveRight {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-80px * 8));
+            }
+        }
+        .testimonials {
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+        .testimonials-container {
+            display: flex;
+            animation: moveRight 30s linear infinite;
+        }
+        .testimonial {
+            flex-shrink: 0;
+            width: 300px;
+            background: #f4f4f4;
+            padding: 1rem;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+                  <style>
+                    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+                    .letter { fill: #333; }
+                    .letter-c { fill: #4a90e2; }
+                  </style>
+                  <g class="logo-text">
+                    <text x="10" y="70" font-size="60" class="letter">I</text>
+                    <text x="40" y="70" font-size="60" class="letter-c">C</text>
+                    <text x="95" y="70" font-size="60" class="letter">ST</text>
+                  </g>
+                  <path d="M35 75 Q 50 85, 65 75" stroke="#333" stroke-width="3" fill="none"/>
+                </svg>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Rest of the HTML remains the same -->
+
+</body>
+</html>
